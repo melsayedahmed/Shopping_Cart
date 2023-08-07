@@ -1,0 +1,61 @@
+/*
+============    Render     ============
+============    Add        ============
+============    Update     ============
+============    Delete     ============
+*/ 
+
+
+// Render Items => {
+//     loop on items [] && and render it 
+// }
+
+// {
+//     add => 
+//         1- get add buttons && loop 
+//         2- items find  id == id
+//         3- create array cart items and push item id == id
+//         4- cart items some  True ? Product is exist : push
+
+// }
+
+// {
+//     update => {
+//         find item == id 
+//         increase || decrease
+//         render
+//     }
+// }
+
+// {
+//     delete => {
+        
+//     }
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+*/
+
+
+

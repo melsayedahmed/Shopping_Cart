@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- css file -->
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+	<!-- fontawsome -->
+	<script src="https://kit.fontawesome.com/ca825dfbdd.js" crossorigin="anonymous"></script>
+
+    <title>shopping-cart</title>
+</head>
+<body>
+    	<!----header start--->
+	<header>
+		<a href="#" class="logo">Bags</a>
+
+		<ul class="navbar">
+			<li><a href="#shop">Shop</a></li>
+			<li><a href="#about">About</a></li>
+			<li><a href="#faq">Faq</a></li>
+			<li><a href="#contact">Contact</a></li>
+			<li><a href="#" class="cart-count"><span>0</span><i class="fa-solid fa-cart-shopping"></i></a></li>
+		</ul>
+
+	</header>
+
+	<aside>
+		<div class="icon">
+			<i class="fa-solid fa-x"></i>
+		</div>
+		<table>
+			<thead>
+				<tr>
+					<th>Id</th>
+					<th>Image</th>
+					<th>Title</th>
+					<th>Amount</th>
+					<th>Price</th>
+					<th>All</th>		
+					<th>Delete</th>	
+	
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>0</td>
+					<td><img src="img/main7.jpg" alt="" srcset=""></td>
+					<td>Bag 1</td>
+					<td>
+					<span class="btn">+</span>
+					<span class="amount">1</span>
+					<span class="btn">-</span>
+					</td>
+					<td>15.00$</td>
+					<td class="all-price">$15.00</td>
+					<td> <button > Delete </button> </td>
+			  </tr>
+			  <tr>
+				<td>0</td>
+				<td><img src="img/main7.jpg" alt="" srcset=""></td>
+				<td>Bag 1</td>
+				<td>
+				<span class="btn">+</span>
+				<span class="amount">1</span>
+				<span class="btn">-</span>
+				</td>
+				<td>15.00$</td>
+				<td class="all-price">$15.00</td>
+				<td> <button > Delete </button> </td>
+		  </tr>
+			<tr>
+				<td>0</td>
+				<td><img src="img/main7.jpg" alt="" srcset=""></td>
+				<td>Bag 1</td>
+				<td>
+				<span class="btn">+</span>
+				<span class="amount">1</span>
+				<span class="btn">-</span>
+				</td>
+				<td>15.00$</td>
+				<td class="all-price">$15.00</td>
+				<td> <button > Delete </button> </td>
+		</tr>
+
+			</tbody>
+		</table>
+		  <div class="side-bottom">
+			<!-- <h4>checkout <span>500$</span></h4> -->
+			<h4 class="btn" onclick="deleteAll()">Delete All</h4>
+		  </div>
+	</aside>
+
+	<section class="shop" id="shop">
+		<div class="container parent-boxs">
+			<div class="box">
+				<img src="img/main7.jpg">
+				<h4 class="product">Bag 1</h4>
+				<h5 class="price">$11.00</h5>
+				<div class="cart">
+					<a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+				</div>
+			</div>
+			<div class="box">
+				<img src="img/main1.jpg">
+				<h4 class="product">Bag 1</h4>
+				<h5 class="price">$11.00</h5>
+				<div class="cart">
+					<a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+				</div>
+			</div>
+			<div class="box">
+				<img src="img/main12.jpg">
+				<h4 class="product">Bag 1</h4>
+				<h5 class="price">$11.00</h5>
+				<div class="cart">
+					<a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+				</div>
+			</div>
+			<div class="box">
+				<img src="img/main8.jpg">
+				<h4 class="product">Bag 1</h4>
+				<h5 class="price">$11.00</h5>
+				<div class="cart">
+					<a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+				</div>
+			</div>
+		</div>
+	</section>
+	<script src="main.js"></script>
+</body>
+</html>
